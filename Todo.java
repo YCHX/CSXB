@@ -8,9 +8,9 @@ public class Todo {
 
     public Todo(String title){
         this.title = title;
-        this.memo = "";
-        this.tag = "";
-        this.area = "";
+        this.memo = "none";
+        this.tag = "none";
+        this.area = "none";
         this.checked = false;
         this.deadline = new String[3];
     }
